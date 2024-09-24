@@ -7,3 +7,6 @@ null : explicity set a variable with no value
 undifined : for variable that have not yet been defined
 object : complex data structures - arrays, dates, literals, etc.
 symbol : used with object
+
+
+bosen banget suer, gak ada kerjaan kek gini..
