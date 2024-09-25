@@ -1,9 +1,9 @@
-let age = 25;
+// let age = 25;
 let year = 2024;
 
 // console.log(age, year);
 
-age = 30;
+// age = 30;
 // console.log(age);
 
 const points = 100;
@@ -16,7 +16,7 @@ var score = 50;
 // tes string
 // console.log("hello world, merhaba");
 
-let email = "annisadwiarum710@gmail.com";
+// let email = "annisadwiarum710@gmail.com";
 // console.log(email);
 
 // string concatenation
@@ -40,7 +40,7 @@ let fullName = firstName + ' ' + lastName;
 // let result = fullName.toUpperCase();
 // console.log(result);
 
-let index = email.indexOf('@');
+// let index = email.indexOf('@');
 // console.log(index);
 
 //string method
@@ -129,7 +129,50 @@ let ninjas = ['shaun', 'li-min', 'jacky'];
 let results = ninjas.push('yen');
 results = ninjas.pop()
 
-console.log(results);
+// console.log(results);
+
+
+//cek undifined / null type
+
+// let age;
+// console.log(age, age + 3, `the age is ${age}`);
+// let age = null;
+// console.log(age, age + 3, `the age is ${age}`);
+
+
+
+// boolean & comparisons
+// console.log(true, false)
+
+// methods can return boolean
+let email = 'annisadwiarum710@gmail.com';
+let names = ['joy', 'thur', 'zero']
+
+// let cek = email.includes('!');
+// let cekNames = names.includes('nisa');
+
+// console.log(cek);
+// console.log(cekNames);
+
+// comparison operators
+let age = 25;
+// console.log(age == 25);
+// console.log(age == 30);
+// console.log(age != 25);
+// console.log(age > 20);
+// console.log(age < 20);
+// console.log(age >= 20);
+// console.log(age <= 20);
+
+let name = 'george';
+console.log(name == 'George');
+console.log(name == 'george');
+console.log(name != 'george');
+console.log(name > 'buddy'); //di lihat dari urutan alphabet. g urutannya lebih jauh dari b.
+console.log(name > 'George'); //Capital more bigger that uppercase
+
+
+
 
 
 
