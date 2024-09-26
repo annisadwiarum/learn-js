@@ -146,7 +146,7 @@ results = ninjas.pop()
 
 // methods can return boolean
 let email = 'annisadwiarum710@gmail.com';
-let names = ['joy', 'thur', 'zero']
+// let names = ['joy', 'thur', 'zero']
 
 // let cek = email.includes('!');
 // let cekNames = names.includes('nisa');
@@ -194,7 +194,7 @@ let score = '100';
 // let result = Boolean(0); // angka di atas 0 adalah true dan 0 ke bawah adalah false
 let result = Boolean('0'); // jika bentuk string, selama string tidak kosong akan teridentifikasi true. saat kosong adalah false
 
-console.log(result, typeof result)
+// console.log(result, typeof result)
 
 
 
