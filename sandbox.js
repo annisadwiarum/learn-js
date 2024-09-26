@@ -10,7 +10,7 @@ const points = 100;
 // points = 50;
 // console.log(points);
 
-var score = 50;
+// var score = 50;
 // console.log(score);
 
 // tes string
@@ -164,15 +164,37 @@ let age = 25;
 // console.log(age >= 20);
 // console.log(age <= 20);
 
-let name = 'george';
-console.log(name == 'George');
-console.log(name == 'george');
-console.log(name != 'george');
-console.log(name > 'buddy'); //di lihat dari urutan alphabet. g urutannya lebih jauh dari b.
-console.log(name > 'George'); //Capital more bigger that uppercase
+// let name = 'george';
+// console.log(name == 'George');
+// console.log(name == 'george');
+// console.log(name != 'george');
+// console.log(name > 'buddy'); //di lihat dari urutan alphabet. g urutannya lebih jauh dari b.
+// console.log(name > 'George'); //Capital more bigger that uppercase
+
+//loose comparison (different types can still be equal)
+// console.log(age == 25);
+// console.log(age == "25");
+
+//strict comparison
+// console.log(age === 25);
+// console.log(age === "25");
 
 
+// type conversion
+let score = '100';
 
+// typeScore = Number(score);
+
+// console.log(typeScore + 1);
+// console.log(typeof typeScore)
+// console.log(typeof score)
+
+// let result = Number('love');
+// let result = String(2000);
+// let result = Boolean(0); // angka di atas 0 adalah true dan 0 ke bawah adalah false
+let result = Boolean('0'); // jika bentuk string, selama string tidak kosong akan teridentifikasi true. saat kosong adalah false
+
+console.log(result, typeof result)
 
 
 
