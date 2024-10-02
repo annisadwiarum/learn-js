@@ -135,6 +135,11 @@ switch (grade) {
 
 // variable & block scope
 
-if (true) {
+let age = 25;
 
+if (true) {
+    let age = 30;
+    console.log('inside code block', age);
 }
+
+console.log('outside code block', age);
