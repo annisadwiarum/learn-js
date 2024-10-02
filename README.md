@@ -5,7 +5,7 @@ string : "hello world"
 boolean : true / false
 null : explicity set a variable with no value
 undifined : for variable that have not yet been defined - cause we are not give a value here.
-object : complex data structures - arrays, dates, literals, etc.
+object : complex data structures - arrays, object literals, function, dates etc.
 symbol : used with object
 
 

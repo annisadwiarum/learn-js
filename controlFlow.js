@@ -81,7 +81,7 @@
 let user = false
 
 if (!user) {
-console.log('u must be logged in to continue')
+// console.log('u must be logged in to continue')
 }
 
 
@@ -97,10 +97,10 @@ for (let i = 0; i < scores.length; i++) {
 
     // kalo dari tutor, beliau bisa pake strict comparison ===. tapi di sini kalo pakai itu gak jalan kondisi if nya. saat pakai loose comparison ==, baru bisa berjalan if nya.
 
-    console.log('your score:', scores[i]);
+    // console.log('your score:', scores[i]);
 
     if(scores[i] == 100) {
-        console.log('congrats! you got the top score!!!');
+        // console.log('congrats! you got the top score!!!');
         break;
     }
 }
@@ -112,25 +112,25 @@ for (let i = 0; i < scores.length; i++) {
 
 const grade = 'A';
 
-switch (grade) {
-    case 'A':
-        console.log('you got A!');
-        break;
-    case 'B':
-        console.log('you got B!');
-        break;
-    case 'C':
-        console.log('you got C!');
-        break;
-    case 'D':
-        console.log('you got D!');
-        break;
-    case 'E':
-        console.log('you got E!');
-        break;
-    default:
-        console.log('undifined');
-}
+// switch (grade) {
+//     case 'A':
+//         console.log('you got A!');
+//         break;
+//     case 'B':
+//         console.log('you got B!');
+//         break;
+//     case 'C':
+//         console.log('you got C!');
+//         break;
+//     case 'D':
+//         console.log('you got D!');
+//         break;
+//     case 'E':
+//         console.log('you got E!');
+//         break;
+//     default:
+//         console.log('undifined');
+// }
 
 
 // variable & block scope
@@ -146,6 +146,7 @@ switch (grade) {
 // if (true) {
 //     const age = 50;
 //     console.log('inside 2nd code block', age);
+//     // var test = 'yeayy'
 // }
 
-// console.log('outside code block', age);
+// console.log('outside code block', age, test);
