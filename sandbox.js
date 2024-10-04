@@ -126,8 +126,8 @@ let ninjas = ['shaun', 'li-min', 'jacky'];
 // let results = ninjas.join(',');
 // let results = ninjas.indexOf('shaun');
 // let results = ninjas.concat('yen', 'wata');
-let results = ninjas.push('yen');
-results = ninjas.pop()
+// let results = ninjas.push('yen');
+// results = ninjas.pop()
 
 // console.log(results);
 
@@ -192,7 +192,8 @@ let score = '100';
 // let result = Number('love');
 // let result = String(2000);
 // let result = Boolean(0); // angka di atas 0 adalah true dan 0 ke bawah adalah false
-let result = Boolean('0'); // jika bentuk string, selama string tidak kosong akan teridentifikasi true. saat kosong adalah false
+// let result = Boolean('0');
+// jika bentuk string, selama string tidak kosong akan teridentifikasi true. saat kosong adalah false
 
 // console.log(result, typeof result)
 

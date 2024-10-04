@@ -68,5 +68,29 @@ const calcuArea = radius => {
     return 3.14 * radius ** 2;
 }
 
-const b = calcuArea(5);
-console.log('area is :', b)
+//bisa di buat satu baris saja, 
+const exCalcuArea = radius => 3.14 * radius ** 2;
+
+const b = exCalcuArea(5);
+// console.log('area is :', b);
+
+
+// practise arrow functions
+
+// const greet = function () {
+//     return "Assalamu'alaikum";
+// };
+
+// const greetTwo = () => "Assalamu'alaikum ya habibi";
+// const result = greetTwo();
+// console.log(result);
+
+const bill = function (product, tax) {
+    let total = 0;
+    for (let i = 0; i < product.length; i++) {
+        total += product[i] + product[i] * tax;
+    }
+    return total;
+}
+
+console.log(bill([10], 2));
