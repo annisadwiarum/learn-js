@@ -85,12 +85,64 @@ const b = exCalcuArea(5);
 // const result = greetTwo();
 // console.log(result);
 
-const bill = function (product, tax) {
-    let total = 0;
+// const bill = function (product, tax) {
+//     let total = 0;
+//     for (let i = 0; i < product.length; i++) {
+//         total += product[i] + product[i] * tax;
+//     }
+//     return total;
+// }
+
+const bill = (product, tax) => {
+       let total = 0;
     for (let i = 0; i < product.length; i++) {
         total += product[i] + product[i] * tax;
     }
     return total;
 }
 
-console.log(bill([10], 2));
+console.log(bill([10], 0.2));
+
+
+const name = 'anne';
+
+// function
+const greet = () => 'merhaba';
+
+let resultOne = greet();
+console.log(resultOne);
+
+// method
+let resultTwo = name.toUpperCase();
+console.log(resultTwo)
+
+// callback & foreach
+
+const myFunc = (callBackFunc) => {
+    // do something
+    let value = 25;
+    callBackFunc(value);
+}
+
+// myFunc(function (value) {
+//     // do something
+//     console.log(value);
+// });
+
+// bentuk arrow func
+myFunc(value => {
+    // do something
+    console.log(value);
+});
+
+let people = ['anne', 'mark', 'mitha'];
+
+// people.forEach(function (person) {
+//     console.log(person);
+// })
+
+// with arrow func
+
+people.forEach((person, index) => {
+    console.log(index, person);
+});
