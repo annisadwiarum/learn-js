@@ -143,6 +143,27 @@ let people = ['anne', 'mark', 'mitha'];
 
 // with arrow func
 
-people.forEach((person, index) => {
-    console.log(index, person);
+// people.forEach((person, index) => {
+    //     console.log(index, person);
+    // });
+    
+    const logPerson = (person, index) => {
+        console.log(`${index} - hallo ${[person]}`);
+    }
+    
+people.forEach(logPerson);
+
+
+// get a reference to the 'ul'
+
+const ul = document.querySelector('.people');
+
+let html = ``;
+
+people.forEach(function (person) {
+    // create html template
+    html += `<li style="color: green">${person}</li>`;
 });
+
+console.log(html);
+ul.innerHTML = html;

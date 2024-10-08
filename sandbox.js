@@ -101,11 +101,11 @@ const reader = 2100000;
 
 //creating html template
 
-let html = `
-<h2>${title}</h2>
-<p>by ${author}</p>
-<span> with ${reader} readers</span>
-`;
+// let html = `
+// <h2>${title}</h2>
+// <p>by ${author}</p>
+// <span> with ${reader} readers</span>
+// `;
 
 // console.log(html);
 
