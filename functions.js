@@ -101,7 +101,7 @@ const bill = (product, tax) => {
     return total;
 }
 
-console.log(bill([10], 0.2));
+// console.log(bill([10], 0.2));
 
 
 const name = 'anne';
@@ -110,11 +110,11 @@ const name = 'anne';
 const greet = () => 'merhaba';
 
 let resultOne = greet();
-console.log(resultOne);
+// console.log(resultOne);
 
 // method
 let resultTwo = name.toUpperCase();
-console.log(resultTwo)
+// console.log(resultTwo)
 
 // callback & foreach
 
@@ -132,7 +132,7 @@ const myFunc = (callBackFunc) => {
 // bentuk arrow func
 myFunc(value => {
     // do something
-    console.log(value);
+    // console.log(value);
 });
 
 let people = ['anne', 'mark', 'mitha'];
@@ -148,7 +148,7 @@ let people = ['anne', 'mark', 'mitha'];
     // });
     
     const logPerson = (person, index) => {
-        console.log(`${index} - hallo ${[person]}`);
+        // console.log(`${index} - hallo ${[person]}`);
     }
     
 people.forEach(logPerson);
@@ -165,5 +165,5 @@ people.forEach(function (person) {
     html += `<li style="color: green">${person}</li>`;
 });
 
-console.log(html);
-ul.innerHTML = html;
+// console.log(html);
+// ul.innerHTML = html;

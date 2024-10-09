@@ -78,11 +78,11 @@
 
 // logical NOT (!)
 
-let user = false
+// let user = false
 
-if (!user) {
-// console.log('u must be logged in to continue')
-}
+// if (!user) {
+// // console.log('u must be logged in to continue')
+// }
 
 
 //break and continue
