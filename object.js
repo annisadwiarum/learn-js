@@ -19,17 +19,21 @@ let human = {
     phone: '081200200032',
     email: 'anne@gmail.com',
     gender: 'female',
-    blog: ['history of Palestine', 'best laptops in 2024'],
+    blogs: ['history of Palestine', 'best laptops in 2024'],
     login: function () {
         console.log('human was successfully logged in');
     },
     logout: function () {
         console.log('human was successfully logged out');
+    },
+    logBlogs: function () {
+        console.log(this.blogs);
     }
 };
 
 human.login();
 human.logout();
+human.logBlogs();
 
 // on the top object with name human, has properties like name, age, etc. except login & logout. login & logout is method of human
 
