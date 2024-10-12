@@ -27,7 +27,11 @@ let human = {
         console.log('human was successfully logged out');
     },
     logBlogs: function () {
-        console.log(this.blogs);
+        // console.log(this.blogs);
+        console.log('this user has written the following blogs:');
+        this.blogs.forEach(blog => {
+            console.log(blog);
+        })
     }
 };
 
