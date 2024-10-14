@@ -10,3 +10,14 @@ symbol : used with object
 
 
 bosen banget suer, gak ada kerjaan kek gini..
+
+suki yo
+ima anata ni omoi nosete
+hora, sunao ni naru no watashi
+kono saki motto soba nittemoi kana
+koi go koi ga kasanatte. 
+suki yo
+ima anata ni omoi todoke 
+Nee, izuite kuremasenka
+doushiyou mo nai kurai
+kokoro made sukini natteiku..
