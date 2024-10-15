@@ -13,17 +13,27 @@
 
 // object literal
 
+// object di dalam array
+// let blogs = [
+//     { title: 'history of Palestine', likes: 190 },
+//     { title: 'best laptops in 2024', likes: 70 },
+// ];
+// console.log(blogs)
+
 let human = {
     name: 'anne',
     age: 25,
     phone: '081200200032',
     email: 'anne@gmail.com',
     gender: 'female',
-    blogs: ['history of Palestine', 'best laptops in 2024'],
-    login: function () {
+    blogs: [
+        { title: 'history of Palestine', likes: 190 },
+        { title: 'best laptops in 2024', likes: 70 },
+    ],
+    login() {
         console.log('human was successfully logged in');
     },
-    logout: function () {
+    logout: () => {
         console.log('human was successfully logged out');
     },
     logBlogs: function () {
@@ -38,6 +48,7 @@ let human = {
 human.login();
 human.logout();
 human.logBlogs();
+console.log('this:', this)
 
 // on the top object with name human, has properties like name, age, etc. except login & logout. login & logout is method of human
 
