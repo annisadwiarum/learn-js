@@ -85,3 +85,26 @@ const random = Math.random();
 
 console.log(random);
 console.log(Math.round(random * 100));
+
+
+// primitive values
+
+let scoreOne = 40;
+let scoreTwo = scoreOne;
+
+console.log(`score one : ${scoreOne}`, `and`, `score two : ${scoreTwo}`);
+
+scoreOne = 20;
+console.log(`score one : ${scoreOne}`, `and`, `score two : ${scoreTwo}`);
+
+
+// reference values
+
+const userOne = { name: "anne", age: 25 };
+const userTwo = userOne;
+
+console.log(userOne, userTwo);
+
+userOne.age = 22;
+console.log(userOne, userTwo);
+
