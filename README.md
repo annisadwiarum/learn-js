@@ -21,3 +21,26 @@ ima anata ni omoi todoke
 Nee, izuite kuremasenka
 doushiyou mo nai kurai
 kokoro made sukini natteiku..
+
+
+in javascript, any two types who should we know.
+1. Primitive types
+2. Reference types
+
+Primitive types :
+- number
+- strings
+- booleans
+- null
+- undifined
+- symbols
+
+
+Reference types :
+- all types of objects : 
+  - objects literals
+  - arrays
+  - functions
+  - dates
+  - all other objects
+  
