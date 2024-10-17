@@ -51,3 +51,7 @@ Reference types :
   - the first, open console and write 'document'. then click enter. so yeah, u'll get the document structure there.
   - next, if you wanna using different properties and methods on this document object. write document dots "document." and than you can scrool through all of these different things right here.
   - ex: if u wanna to get the location of document. write "document.location" and then click enter.
+
+  Dom, sees html as hierarchical tree of nodes and each one of these elements is considered a node in the dom.
+
+  for DOM, html is the root of node.
