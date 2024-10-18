@@ -37,9 +37,49 @@ const param = document.querySelector('p');
 const params = document.querySelectorAll('p');
 
 params.forEach(para => {
-    console.log(para.innerText);
+    // console.log(para.innerText);
     para.innerText += ' new text';
 })
 
 const content = document.querySelector(".content");
-console.log(content.innerHTML)
+// console.log(content.innerHTML)
+// content.innerHTML += '<h2> anatakara </h2>';
+// console.log(content)
+
+const people = ['anne', 'mitha', 'rudi'];
+
+people.forEach(person => {
+    content.innerHTML += `<p>${person}</p>`;
+});
+// console.log(content)
+
+
+// get attributes
+
+const link = document.querySelector('a');
+// console.log(link.getAttribute('href'));
+
+
+// set attributes (change attributes)
+
+link.setAttribute('href', 'https://www.instagram.com/annisadwiarum/');
+link.innerText = 'my instagram';
+console.log(link.getAttribute('href'));
+
+const message = document.querySelector('p');
+console.log(message.getAttribute('class'));
+//change name attribute
+message.setAttribute('class', 'success');
+message.setAttribute('style', 'color: red;');
+
+const title = document.querySelector('h1');
+// title.setAttribute('style', 'margin: 50px;');
+// to see properties of the style
+console.log(title.style);
+// to get properties of style
+console.log(title.style.color)
+// add/change style by calling the property name
+title.style.margin = '50px';
+title.style.color = 'crimson';
+title.style.fontSize = '20px';
+title.style.margin = '';
